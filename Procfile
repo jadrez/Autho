@@ -1,1 +1,1 @@
-web: java -jar target/MyWebApp.war
+web: java -jar target/autho.war
