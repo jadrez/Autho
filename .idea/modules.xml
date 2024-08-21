@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyWebApp.iml" filepath="$PROJECT_DIR$/MyWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Autenticador.iml" filepath="$PROJECT_DIR$/Autenticador.iml" />
     </modules>
   </component>
 </project>
