@@ -7,8 +7,8 @@
     <groupId>com.jetbrains</groupId>
     <artifactId>Autenticador</artifactId>
     <version>1.0</version>
-    <name>MyWebApp</name>
-    <packaging>war</packaging>
+    <name>Autho</name>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -30,11 +30,6 @@
             <version>6.0.0.Beta3</version>
         </dependency>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.25</version>
-        </dependency>
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
@@ -52,10 +47,10 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.0</version>
                 <configuration>
-                    <warName>autho</warName>
+                    <finalName>autho</finalName>
                 </configuration>
             </plugin>
         </plugins>

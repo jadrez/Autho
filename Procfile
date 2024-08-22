@@ -1,1 +1,1 @@
-web: java -jar target/autho.war
+web: java -jar target/autho.jar
