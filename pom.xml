@@ -61,6 +61,11 @@
                 <version>3.4.0</version>
                 <configuration>
                     <finalName>autho</finalName>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.jetbrains.MyWebApp.autho</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>

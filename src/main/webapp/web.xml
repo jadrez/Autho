@@ -7,7 +7,7 @@
     <!-- add servlet -->
     <servlet>
         <servlet-name>index</servlet-name>
-        <servlet-class>com.jetbrains.MyWebApp.MyServlet</servlet-class>
+        <servlet-class>servlets.MyServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
